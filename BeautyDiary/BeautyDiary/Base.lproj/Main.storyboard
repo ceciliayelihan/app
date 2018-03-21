@@ -200,52 +200,94 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Register" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ZF-sT-Zom">
-                                <rect key="frame" x="112" y="198" width="151" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Register" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ZF-sT-Zom">
+                                <rect key="frame" x="116.5" y="198" width="142.5" height="32.5"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9qK-eD-AUe">
-                                <rect key="frame" x="48" y="283" width="84" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9qK-eD-AUe">
+                                <rect key="frame" x="48" y="283" width="83" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="83" id="lDd-Rd-UFB"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NVA-Np-ibW">
-                                <rect key="frame" x="48" y="323" width="84" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NVA-Np-ibW">
+                                <rect key="frame" x="48" y="323" width="83" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="83" id="R7E-dh-Bwl"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r0Z-De-c5v">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r0Z-De-c5v">
                                 <rect key="frame" x="148" y="278" width="175" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="175" id="Mts-w9-A71"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tWe-fs-WbP">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tWe-fs-WbP">
                                 <rect key="frame" x="148" y="318" width="175" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="175" id="3Bm-tR-xub"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNb-gL-cqU">
-                                <rect key="frame" x="122" y="385" width="130" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNb-gL-cqU">
+                                <rect key="frame" x="137" y="385" width="100" height="32"/>
                                 <color key="backgroundColor" red="1" green="0.78978037762487663" blue="0.7459456134176734" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="e21-73-LAU"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
                                 <state key="normal" title="Sign Up!"/>
+                                <connections>
+                                    <action selector="btnSignUp:" destination="mLO-Z4-BZL" eventType="touchUpInside" id="ldc-4s-aEa"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G2P-eF-RVY">
+                                <rect key="frame" x="4" y="457" width="367" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="367" id="n0K-N5-qQc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.64275263380000003" blue="0.6106954215" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tWe-fs-WbP" firstAttribute="leading" secondItem="NVA-Np-ibW" secondAttribute="trailing" constant="17" id="0u0-lh-GmW"/>
+                            <constraint firstItem="tNb-gL-cqU" firstAttribute="centerX" secondItem="XI3-AO-2FF" secondAttribute="centerX" id="2sn-5d-SuN"/>
+                            <constraint firstItem="G2P-eF-RVY" firstAttribute="top" secondItem="tNb-gL-cqU" secondAttribute="bottom" constant="40" id="3CT-oC-JTY"/>
+                            <constraint firstItem="tWe-fs-WbP" firstAttribute="top" secondItem="r0Z-De-c5v" secondAttribute="bottom" constant="10" id="4bv-Fx-1iV"/>
+                            <constraint firstItem="tNb-gL-cqU" firstAttribute="top" secondItem="tWe-fs-WbP" secondAttribute="bottom" constant="37" id="8sO-KZ-tpY"/>
+                            <constraint firstItem="7ZF-sT-Zom" firstAttribute="top" secondItem="lsW-3i-KhV" secondAttribute="top" constant="134" id="EGj-3W-ZVJ"/>
+                            <constraint firstItem="r0Z-De-c5v" firstAttribute="top" secondItem="7ZF-sT-Zom" secondAttribute="bottom" constant="47.5" id="RcQ-Qd-O3o"/>
+                            <constraint firstItem="9qK-eD-AUe" firstAttribute="top" secondItem="7ZF-sT-Zom" secondAttribute="bottom" constant="52.5" id="aG8-0D-x4Y"/>
+                            <constraint firstItem="NVA-Np-ibW" firstAttribute="top" secondItem="9qK-eD-AUe" secondAttribute="bottom" constant="20" id="jHv-v2-kFj"/>
+                            <constraint firstItem="9qK-eD-AUe" firstAttribute="leading" secondItem="lsW-3i-KhV" secondAttribute="leading" constant="48" id="l4p-ZX-boB"/>
+                            <constraint firstItem="r0Z-De-c5v" firstAttribute="leading" secondItem="9qK-eD-AUe" secondAttribute="trailing" constant="17" id="lO2-JD-mqC"/>
+                            <constraint firstItem="7ZF-sT-Zom" firstAttribute="centerX" secondItem="XI3-AO-2FF" secondAttribute="centerX" id="pjb-DB-hKw"/>
+                            <constraint firstItem="G2P-eF-RVY" firstAttribute="centerX" secondItem="XI3-AO-2FF" secondAttribute="centerX" id="zlK-sD-Bc6"/>
+                            <constraint firstItem="NVA-Np-ibW" firstAttribute="leading" secondItem="lsW-3i-KhV" secondAttribute="leading" constant="48" id="zlS-bu-vNS"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="lsW-3i-KhV"/>
                     </view>
+                    <connections>
+                        <outlet property="lblRegister" destination="G2P-eF-RVY" id="pFU-h7-Yz2"/>
+                        <outlet property="txtFieldPassword" destination="tWe-fs-WbP" id="9Zi-XR-bKy"/>
+                        <outlet property="txtFieldUsername" destination="r0Z-De-c5v" id="SPv-aD-rhZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mni-ka-6RW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

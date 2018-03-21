@@ -26,10 +26,7 @@ class LoginScreenViewController: UIViewController {
         // By the time we get here, the destination view controller has already been
         // instantiated. That allows us to get access to public properties/methods before
         // navigating to the destination view controller.
-        let backItem = UIBarButtonItem()
-        backItem.title = "Back"
-        navigationItem.backBarButtonItem = backItem
-
+        
     }
 
     /*
