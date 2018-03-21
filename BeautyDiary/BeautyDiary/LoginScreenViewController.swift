@@ -2,7 +2,7 @@
 //  LoginScreenViewController.swift
 //  BeautyDiary
 //
-//  Created by Chih-Hsuan Cherng on 3/20/18.
+//  Created by Lingyun Gu on 3/20/18.
 //  Copyright © 2018 BeautyDiary. All rights reserved.
 //
 

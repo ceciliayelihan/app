@@ -8,30 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		83B0C73A2061F49400212D1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B0C7392061F49400212D1A /* AppDelegate.swift */; };
+		83B0C73C2061F49500212D1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B0C73B2061F49500212D1A /* ViewController.swift */; };
 		83B0C73F2061F49500212D1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B0C73D2061F49500212D1A /* Main.storyboard */; };
 		83B0C7422061F49500212D1A /* BeautyDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83B0C7402061F49500212D1A /* BeautyDiary.xcdatamodeld */; };
 		83B0C7442061F49500212D1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B0C7432061F49500212D1A /* Assets.xcassets */; };
 		83B0C7472061F49500212D1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B0C7452061F49500212D1A /* LaunchScreen.storyboard */; };
-<<<<<<< HEAD
-		DC8412262061FA2C004C741F /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8412252061FA2C004C741F /* LoginScreenViewController.swift */; };
-=======
 		83B0C74F2061FB6100212D1A /* LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B0C74E2061FB6100212D1A /* LOGO.png */; };
->>>>>>> f8a143b78291680b05a8761cbaacb63e3e83cf59
+		DB74B34620620325003EAEAD /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB74B34520620325003EAEAD /* LoginScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		83B0C7362061F49400212D1A /* BeautyDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautyDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B0C7392061F49400212D1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83B0C73B2061F49500212D1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		83B0C73E2061F49500212D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83B0C7412061F49500212D1A /* BeautyDiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeautyDiary.xcdatamodel; sourceTree = "<group>"; };
 		83B0C7432061F49500212D1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83B0C7462061F49500212D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83B0C7482061F49500212D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-<<<<<<< HEAD
-		DC8412252061FA2C004C741F /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
-=======
 		83B0C74E2061FB6100212D1A /* LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LOGO.png; path = ../../LOGO.png; sourceTree = "<group>"; };
->>>>>>> f8a143b78291680b05a8761cbaacb63e3e83cf59
+		DB74B34520620325003EAEAD /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				83B0C7392061F49400212D1A /* AppDelegate.swift */,
+				83B0C73B2061F49500212D1A /* ViewController.swift */,
 				83B0C73D2061F49500212D1A /* Main.storyboard */,
-				DC8412252061FA2C004C741F /* LoginScreenViewController.swift */,
+				DB74B34520620325003EAEAD /* LoginScreenViewController.swift */,
 				83B0C7432061F49500212D1A /* Assets.xcassets */,
 				83B0C7452061F49500212D1A /* LaunchScreen.storyboard */,
 				83B0C74E2061FB6100212D1A /* LOGO.png */,
@@ -149,9 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83B0C73C2061F49500212D1A /* ViewController.swift in Sources */,
 				83B0C7422061F49500212D1A /* BeautyDiary.xcdatamodeld in Sources */,
+				DB74B34620620325003EAEAD /* LoginScreenViewController.swift in Sources */,
 				83B0C73A2061F49400212D1A /* AppDelegate.swift in Sources */,
-				DC8412262061FA2C004C741F /* LoginScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
