@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import CoreData
 
 class LoginScreenViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Login"
 
         // Do any additional setup after loading the view.
     }
