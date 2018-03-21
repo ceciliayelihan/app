@@ -15,6 +15,7 @@
 		83B0C7472061F49500212D1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B0C7452061F49500212D1A /* LaunchScreen.storyboard */; };
 		83B0C74F2061FB6100212D1A /* LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B0C74E2061FB6100212D1A /* LOGO.png */; };
 		DB74B34620620325003EAEAD /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB74B34520620325003EAEAD /* LoginScreenViewController.swift */; };
+		DC84122820620D4F004C741F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84122720620D4F004C741F /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		83B0C7482061F49500212D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83B0C74E2061FB6100212D1A /* LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LOGO.png; path = ../../LOGO.png; sourceTree = "<group>"; };
 		DB74B34520620325003EAEAD /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		DC84122720620D4F004C741F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				83B0C73B2061F49500212D1A /* ViewController.swift */,
 				83B0C73D2061F49500212D1A /* Main.storyboard */,
 				DB74B34520620325003EAEAD /* LoginScreenViewController.swift */,
+				DC84122720620D4F004C741F /* RegisterViewController.swift */,
 				83B0C7432061F49500212D1A /* Assets.xcassets */,
 				83B0C7452061F49500212D1A /* LaunchScreen.storyboard */,
 				83B0C74E2061FB6100212D1A /* LOGO.png */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83B0C73C2061F49500212D1A /* ViewController.swift in Sources */,
+				DC84122820620D4F004C741F /* RegisterViewController.swift in Sources */,
 				83B0C7422061F49500212D1A /* BeautyDiary.xcdatamodeld in Sources */,
 				DB74B34620620325003EAEAD /* LoginScreenViewController.swift in Sources */,
 				83B0C73A2061F49400212D1A /* AppDelegate.swift in Sources */,
