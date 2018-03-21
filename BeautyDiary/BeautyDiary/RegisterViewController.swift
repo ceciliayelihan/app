@@ -1,15 +1,16 @@
 //
-//  LoginScreenViewController.swift
+//  RegisterViewController.swift
 //  BeautyDiary
 //
-//  Created by Lingyun Gu on 3/20/18.
+//  Created by Chih-Hsuan Cherng on 3/20/18.
 //  Copyright © 2018 BeautyDiary. All rights reserved.
 //
 
 import UIKit
 import CoreData
 
-class LoginScreenViewController: UIViewController {
+
+class RegisterViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,15 +23,6 @@ class LoginScreenViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // By the time we get here, the destination view controller has already been
-        // instantiated. That allows us to get access to public properties/methods before
-        // navigating to the destination view controller.
-        let backItem = UIBarButtonItem()
-        backItem.title = "Back"
-        navigationItem.backBarButtonItem = backItem
-
-    }
 
     /*
     // MARK: - Navigation

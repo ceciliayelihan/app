@@ -1,5 +1,5 @@
 //
-//  LoginScreenViewController.swift
+//  HomeTabBarController.swift
 //  BeautyDiary
 //
 //  Created by Lingyun Gu on 3/20/18.
@@ -9,7 +9,8 @@
 import UIKit
 import CoreData
 
-class LoginScreenViewController: UIViewController {
+
+class HomeTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,15 +23,6 @@ class LoginScreenViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // By the time we get here, the destination view controller has already been
-        // instantiated. That allows us to get access to public properties/methods before
-        // navigating to the destination view controller.
-        let backItem = UIBarButtonItem()
-        backItem.title = "Back"
-        navigationItem.backBarButtonItem = backItem
-
-    }
 
     /*
     // MARK: - Navigation
