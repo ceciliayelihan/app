@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		832C0BDF206C395C00C07315 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832C0BDE206C395C00C07315 /* SettingsViewController.swift */; };
 		83B0C73A2061F49400212D1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B0C7392061F49400212D1A /* AppDelegate.swift */; };
 		83B0C73C2061F49500212D1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B0C73B2061F49500212D1A /* ViewController.swift */; };
 		83B0C73F2061F49500212D1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B0C73D2061F49500212D1A /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		832C0BDE206C395C00C07315 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		83B0C7362061F49400212D1A /* BeautyDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautyDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B0C7392061F49400212D1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83B0C73B2061F49500212D1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				83B0C73B2061F49500212D1A /* ViewController.swift */,
 				83B0C73D2061F49500212D1A /* Main.storyboard */,
 				DB74B34520620325003EAEAD /* LoginScreenViewController.swift */,
+				832C0BDE206C395C00C07315 /* SettingsViewController.swift */,
 				DC84122720620D4F004C741F /* RegisterViewController.swift */,
 				DB74B3472062163C003EAEAD /* HomeTabBarController.swift */,
 				83B0C7432061F49500212D1A /* Assets.xcassets */,
@@ -154,6 +157,7 @@
 			files = (
 				83B0C73C2061F49500212D1A /* ViewController.swift in Sources */,
 				DC84122820620D4F004C741F /* RegisterViewController.swift in Sources */,
+				832C0BDF206C395C00C07315 /* SettingsViewController.swift in Sources */,
 				DB74B3482062163C003EAEAD /* HomeTabBarController.swift in Sources */,
 				83B0C7422061F49500212D1A /* BeautyDiary.xcdatamodeld in Sources */,
 				DB74B34620620325003EAEAD /* LoginScreenViewController.swift in Sources */,
