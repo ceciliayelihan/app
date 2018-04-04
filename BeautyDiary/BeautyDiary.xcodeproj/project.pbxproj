@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		832C0BDF206C395C00C07315 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832C0BDE206C395C00C07315 /* SettingsViewController.swift */; };
 		83B0C73A2061F49400212D1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B0C7392061F49400212D1A /* AppDelegate.swift */; };
 		83B0C73C2061F49500212D1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B0C73B2061F49500212D1A /* ViewController.swift */; };
 		83B0C73F2061F49500212D1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B0C73D2061F49500212D1A /* Main.storyboard */; };
@@ -17,11 +16,19 @@
 		83B0C74F2061FB6100212D1A /* LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B0C74E2061FB6100212D1A /* LOGO.png */; };
 		DB74B34620620325003EAEAD /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB74B34520620325003EAEAD /* LoginScreenViewController.swift */; };
 		DB74B3482062163C003EAEAD /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB74B3472062163C003EAEAD /* HomeTabBarController.swift */; };
+		DB8DB1E320745BC100BBF8AF /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8DB1E220745BC100BBF8AF /* SearchViewController.swift */; };
+		DB8DB1E720745D5100BBF8AF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8DB1E620745D5100BBF8AF /* HomeViewController.swift */; };
+		DB8DB1EB20745FFA00BBF8AF /* WishitemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8DB1EA20745FFA00BBF8AF /* WishitemViewController.swift */; };
+		DB8DB1ED207460CA00BBF8AF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8DB1EC207460CA00BBF8AF /* SettingViewController.swift */; };
+		DB8DB1EF2074660D00BBF8AF /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8DB1EE2074660D00BBF8AF /* DisplayViewController.swift */; };
+		DB8DB1F12074665600BBF8AF /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8DB1F02074665600BBF8AF /* EditViewController.swift */; };
+		DB8DB1F3207467E600BBF8AF /* PhotolibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8DB1F2207467E600BBF8AF /* PhotolibraryViewController.swift */; };
+		DB8DB1F52074699A00BBF8AF /* WishlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8DB1F42074699A00BBF8AF /* WishlistViewController.swift */; };
+		DB8DB1F7207469B200BBF8AF /* AddwishitemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8DB1F6207469B200BBF8AF /* AddwishitemViewController.swift */; };
 		DC84122820620D4F004C741F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84122720620D4F004C741F /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		832C0BDE206C395C00C07315 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		83B0C7362061F49400212D1A /* BeautyDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautyDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B0C7392061F49400212D1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83B0C73B2061F49500212D1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,6 +40,15 @@
 		83B0C74E2061FB6100212D1A /* LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LOGO.png; path = ../../LOGO.png; sourceTree = "<group>"; };
 		DB74B34520620325003EAEAD /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
 		DB74B3472062163C003EAEAD /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
+		DB8DB1E220745BC100BBF8AF /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		DB8DB1E620745D5100BBF8AF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DB8DB1EA20745FFA00BBF8AF /* WishitemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishitemViewController.swift; sourceTree = "<group>"; };
+		DB8DB1EC207460CA00BBF8AF /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		DB8DB1EE2074660D00BBF8AF /* DisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
+		DB8DB1F02074665600BBF8AF /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		DB8DB1F2207467E600BBF8AF /* PhotolibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotolibraryViewController.swift; sourceTree = "<group>"; };
+		DB8DB1F42074699A00BBF8AF /* WishlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistViewController.swift; sourceTree = "<group>"; };
+		DB8DB1F6207469B200BBF8AF /* AddwishitemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddwishitemViewController.swift; sourceTree = "<group>"; };
 		DC84122720620D4F004C741F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,11 +84,19 @@
 			children = (
 				83B0C7392061F49400212D1A /* AppDelegate.swift */,
 				83B0C73B2061F49500212D1A /* ViewController.swift */,
-				83B0C73D2061F49500212D1A /* Main.storyboard */,
 				DB74B34520620325003EAEAD /* LoginScreenViewController.swift */,
-				832C0BDE206C395C00C07315 /* SettingsViewController.swift */,
 				DC84122720620D4F004C741F /* RegisterViewController.swift */,
 				DB74B3472062163C003EAEAD /* HomeTabBarController.swift */,
+				DB8DB1E620745D5100BBF8AF /* HomeViewController.swift */,
+				DB8DB1EE2074660D00BBF8AF /* DisplayViewController.swift */,
+				DB8DB1F02074665600BBF8AF /* EditViewController.swift */,
+				DB8DB1F2207467E600BBF8AF /* PhotolibraryViewController.swift */,
+				DB8DB1E220745BC100BBF8AF /* SearchViewController.swift */,
+				DB8DB1EC207460CA00BBF8AF /* SettingViewController.swift */,
+				DB8DB1F42074699A00BBF8AF /* WishlistViewController.swift */,
+				DB8DB1EA20745FFA00BBF8AF /* WishitemViewController.swift */,
+				DB8DB1F6207469B200BBF8AF /* AddwishitemViewController.swift */,
+				83B0C73D2061F49500212D1A /* Main.storyboard */,
 				83B0C7432061F49500212D1A /* Assets.xcassets */,
 				83B0C7452061F49500212D1A /* LaunchScreen.storyboard */,
 				83B0C74E2061FB6100212D1A /* LOGO.png */,
@@ -155,10 +179,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB8DB1F3207467E600BBF8AF /* PhotolibraryViewController.swift in Sources */,
+				DB8DB1F12074665600BBF8AF /* EditViewController.swift in Sources */,
+				DB8DB1EB20745FFA00BBF8AF /* WishitemViewController.swift in Sources */,
+				DB8DB1F52074699A00BBF8AF /* WishlistViewController.swift in Sources */,
+				DB8DB1ED207460CA00BBF8AF /* SettingViewController.swift in Sources */,
 				83B0C73C2061F49500212D1A /* ViewController.swift in Sources */,
 				DC84122820620D4F004C741F /* RegisterViewController.swift in Sources */,
-				832C0BDF206C395C00C07315 /* SettingsViewController.swift in Sources */,
+				DB8DB1E320745BC100BBF8AF /* SearchViewController.swift in Sources */,
+				DB8DB1E720745D5100BBF8AF /* HomeViewController.swift in Sources */,
+				DB8DB1F7207469B200BBF8AF /* AddwishitemViewController.swift in Sources */,
 				DB74B3482062163C003EAEAD /* HomeTabBarController.swift in Sources */,
+				DB8DB1EF2074660D00BBF8AF /* DisplayViewController.swift in Sources */,
 				83B0C7422061F49500212D1A /* BeautyDiary.xcdatamodeld in Sources */,
 				DB74B34620620325003EAEAD /* LoginScreenViewController.swift in Sources */,
 				83B0C73A2061F49400212D1A /* AppDelegate.swift in Sources */,

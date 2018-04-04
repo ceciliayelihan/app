@@ -1,14 +1,14 @@
 //
-//  SettingsViewController.swift
+//  WishlistViewController.swift
 //  BeautyDiary
 //
-//  Created by yelihan on 28/03/2018.
+//  Created by Lingyun Gu on 4/3/18.
 //  Copyright © 2018 BeautyDiary. All rights reserved.
 //
 
 import UIKit
 
-class SettingsViewController: UIViewController {
+class WishlistViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
