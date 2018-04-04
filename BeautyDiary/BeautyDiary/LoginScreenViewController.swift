@@ -8,11 +8,23 @@
 
 import UIKit
 import CoreData
+import AVFoundation
 
 class LoginScreenViewController: UIViewController {
+    var audioPlayer = AVAudioPlayer()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        do{
+            audioPlayer = try AVAudioPlayer(contentsOf: URL.init(fileURLWithPath: Bundle.main.path(forResource: "music", ofType: "mp3")!))
+            audioPlayer.numberOfLoops = -1
+            audioPlayer.prepareToPlay()
+            audioPlayer.play()
+        }
+        catch{
+            print(error)
+        }
+
 
         // Do any additional setup after loading the view.
     }
@@ -40,3 +52,4 @@ class LoginScreenViewController: UIViewController {
     */
 
 }
+
