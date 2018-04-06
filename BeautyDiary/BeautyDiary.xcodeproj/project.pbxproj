@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		830F470A207472B7000621C6 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 830F4709207472B7000621C6 /* music.mp3 */; };
+		838989AB20771E9F001406A7 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 838989AA20771E9F001406A7 /* music.mp3 */; };
 		83B0C73A2061F49400212D1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B0C7392061F49400212D1A /* AppDelegate.swift */; };
 		83B0C73C2061F49500212D1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B0C73B2061F49500212D1A /* ViewController.swift */; };
 		83B0C73F2061F49500212D1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B0C73D2061F49500212D1A /* Main.storyboard */; };
@@ -30,7 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		830F4709207472B7000621C6 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music.mp3; path = ../../../music.mp3; sourceTree = "<group>"; };
+		838989AA20771E9F001406A7 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = SOURCE_ROOT; };
 		83B0C7362061F49400212D1A /* BeautyDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautyDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B0C7392061F49400212D1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83B0C73B2061F49500212D1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 				DB8DB1EA20745FFA00BBF8AF /* WishitemViewController.swift */,
 				DB8DB1F6207469B200BBF8AF /* AddwishitemViewController.swift */,
 				83B0C73D2061F49500212D1A /* Main.storyboard */,
-				830F4709207472B7000621C6 /* music.mp3 */,
+				838989AA20771E9F001406A7 /* music.mp3 */,
 				83B0C7432061F49500212D1A /* Assets.xcassets */,
 				83B0C7452061F49500212D1A /* LaunchScreen.storyboard */,
 				83B0C74E2061FB6100212D1A /* LOGO.png */,
@@ -173,7 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				830F470A207472B7000621C6 /* music.mp3 in Resources */,
+				838989AB20771E9F001406A7 /* music.mp3 in Resources */,
 				83B0C74F2061FB6100212D1A /* LOGO.png in Resources */,
 				83B0C7472061F49500212D1A /* LaunchScreen.storyboard in Resources */,
 				83B0C7442061F49500212D1A /* Assets.xcassets in Resources */,
