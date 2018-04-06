@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		838989AB20771E9F001406A7 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 838989AA20771E9F001406A7 /* music.mp3 */; };
+		838989AD20773E11001406A7 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838989AC20773E11001406A7 /* SettingViewController.swift */; };
 		83B0C73A2061F49400212D1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B0C7392061F49400212D1A /* AppDelegate.swift */; };
 		83B0C73C2061F49500212D1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B0C73B2061F49500212D1A /* ViewController.swift */; };
 		83B0C73F2061F49500212D1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B0C73D2061F49500212D1A /* Main.storyboard */; };
@@ -20,7 +21,6 @@
 		DB8DB1E320745BC100BBF8AF /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8DB1E220745BC100BBF8AF /* SearchViewController.swift */; };
 		DB8DB1E720745D5100BBF8AF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8DB1E620745D5100BBF8AF /* HomeViewController.swift */; };
 		DB8DB1EB20745FFA00BBF8AF /* WishitemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8DB1EA20745FFA00BBF8AF /* WishitemViewController.swift */; };
-		DB8DB1ED207460CA00BBF8AF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8DB1EC207460CA00BBF8AF /* SettingViewController.swift */; };
 		DB8DB1EF2074660D00BBF8AF /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8DB1EE2074660D00BBF8AF /* DisplayViewController.swift */; };
 		DB8DB1F12074665600BBF8AF /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8DB1F02074665600BBF8AF /* EditViewController.swift */; };
 		DB8DB1F3207467E600BBF8AF /* PhotolibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8DB1F2207467E600BBF8AF /* PhotolibraryViewController.swift */; };
@@ -31,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		838989AA20771E9F001406A7 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = SOURCE_ROOT; };
+		838989AC20773E11001406A7 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingViewController.swift; path = ../../../../.Trash/SettingViewController.swift; sourceTree = "<group>"; };
 		83B0C7362061F49400212D1A /* BeautyDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautyDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B0C7392061F49400212D1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83B0C73B2061F49500212D1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,7 +46,6 @@
 		DB8DB1E220745BC100BBF8AF /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		DB8DB1E620745D5100BBF8AF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DB8DB1EA20745FFA00BBF8AF /* WishitemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishitemViewController.swift; sourceTree = "<group>"; };
-		DB8DB1EC207460CA00BBF8AF /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		DB8DB1EE2074660D00BBF8AF /* DisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
 		DB8DB1F02074665600BBF8AF /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		DB8DB1F2207467E600BBF8AF /* PhotolibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotolibraryViewController.swift; sourceTree = "<group>"; };
@@ -94,10 +94,10 @@
 				DB8DB1F02074665600BBF8AF /* EditViewController.swift */,
 				DB8DB1F2207467E600BBF8AF /* PhotolibraryViewController.swift */,
 				DB8DB1E220745BC100BBF8AF /* SearchViewController.swift */,
-				DB8DB1EC207460CA00BBF8AF /* SettingViewController.swift */,
 				DB8DB1F42074699A00BBF8AF /* WishlistViewController.swift */,
 				DB8DB1EA20745FFA00BBF8AF /* WishitemViewController.swift */,
 				DB8DB1F6207469B200BBF8AF /* AddwishitemViewController.swift */,
+				838989AC20773E11001406A7 /* SettingViewController.swift */,
 				83B0C73D2061F49500212D1A /* Main.storyboard */,
 				838989AA20771E9F001406A7 /* music.mp3 */,
 				83B0C7432061F49500212D1A /* Assets.xcassets */,
@@ -192,8 +192,8 @@
 				DB8DB1F12074665600BBF8AF /* EditViewController.swift in Sources */,
 				DB8DB1EB20745FFA00BBF8AF /* WishitemViewController.swift in Sources */,
 				DB8DB1F52074699A00BBF8AF /* WishlistViewController.swift in Sources */,
-				DB8DB1ED207460CA00BBF8AF /* SettingViewController.swift in Sources */,
 				83B0C73C2061F49500212D1A /* ViewController.swift in Sources */,
+				838989AD20773E11001406A7 /* SettingViewController.swift in Sources */,
 				DC84122820620D4F004C741F /* RegisterViewController.swift in Sources */,
 				DB8DB1E320745BC100BBF8AF /* SearchViewController.swift in Sources */,
 				DB8DB1E720745D5100BBF8AF /* HomeViewController.swift in Sources */,
